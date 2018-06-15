@@ -1,54 +1,103 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Mantis shrimp</title>
-  <link rel="stylesheet" type="text/css" href="mantis-shrimps.css">
-</head>
-<body>
+html{
+  font-family: Raleway,monospace,courier;
+  background-color: #444;
+  color:#999;
+}
 
-  <img src="http://i.imgur.com/tPT0bDo.jpg" alt="Mantis shrimp">
-  
-  <h1>True facts about the mantis shrimp</h1>
-  <p class="lead">Mantis shrimps are predators which kill their prey by hitting them at high speed. They have large complex eyes and are highly coloured.</p>
-  
-  <h2>Attack</h2>
-  <p>Mantis shrimps have two methods of attack; they can be <strong>spearers</strong> or <strong>smashers</strong>.</p>
-  <p>They strike by rapidly unfolding and swinging their claws at the prey, and can cause serious damage on victims larger than themselves.</p>
-  
-  <h2>Eyesight</h2>
-  <p>Their eyes are mounted on mobile stalks and constantly move about independently of each other. They are considered to be the most complex eyes in the animal kingdom.</p>
-  <p>The mantis shrimp has such good eyes it can perceive both polarized light, and colour vision outside the normal visual spectrum.</p>
-  
-  <table>
-    <caption>Types of color-receptive cones present in the eye</caption>
-    <tr>
-      <th>species</th>
-      <th>types of cones</th>
-    </tr>
-    <tr>
-      <td>dogs</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>humans</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>butterflies</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>mantis shrimp</td>
-      <td>16</td>
-    </tr>
-  </table>
-  
-  <hr>
-  
-  <footer>Source: <a href="https://simple.wikipedia.org/wiki/Mantis_shrimp" target="_blank">Wikipedia</a></footer>
+footer{
+  text-align:center;
+  font-size:13px;
+}
 
-</body>
-</html>
+a{
+  color: rgba(162, 204, 208, 1);
+}
 
-<br>
-<br>
+img, h1, table, th, td, caption{
+  text-align:center;
+}
+
+img{
+  height:auto;
+  width:100%;
+}
+
+body{
+  margin:0;
+}
+
+h1{
+  position:absolute;
+  margin-top:-120px;
+  min-width:90%;
+  margin-left:5%;
+  margin-right:5%;
+  background-color:rgba(10, 10, 10, 0.6);
+  font-size:40px;
+  padding-right: 0;
+  padding-left: 0;
+  text-align:center;
+}
+
+h1,h2{
+  color: rgba(255, 255, 255, 1);
+}
+
+.lead{
+  font-size:25px;
+  font-weight:bold;
+  padding:2%;
+  border:1px solid yellow;
+  border-radius:5px;
+  background-color:yellow;
+  color: #444; 
+}
+h2{
+  font-size:33px;
+  margin:3%;
+}
+p{
+  font-size:20px;
+  margin:3%;
+}
+
+strong{
+  color:rgba(188, 190, 192, 1);
+}
+caption{
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:20px;
+}
+th{
+  font-size:20px;
+  font-weight:bold;
+  background-color:dimgray;
+  border-color:dimgray;
+}
+td{
+  font-size:20px;
+}
+table,th,td,tr,caption{
+  border:1px solid dimgray;
+}
+h1, table, th, td, tr, footer {
+	padding: 1%;
+}
+
+.lead, h2, p, table, th, td, tr, hr {
+	margin-left: 4%;
+	margin-right: 4%;
+}
+.lead, h2, p {
+	line-height: 1.5;
+	letter-spacing: -.04em;
+}
+table,th,td,tr{
+  table-layout:fixed;
+  border-collapse:collapse;
+  width:92%;
+  margin-bottom:5%;
+}
+
+
